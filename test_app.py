@@ -1,5 +1,5 @@
 import pytest
-from app import app
+from app import ACEestApp
 
 def test_home():
     client = app.test_client()
