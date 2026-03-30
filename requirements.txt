@@ -1,3 +1,5 @@
 flask
 pytest
 matplotlib
+fpdf
+pytest
