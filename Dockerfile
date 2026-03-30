@@ -3,6 +3,7 @@ FROM python:3.9-slim
 RUN apt-get update && apt-get install -y \
     python3-tk \
     libtk8.6 \
+    xvfb \
     && rm -rf /var/lib/apt/lists/*
 # Step 2: Set the working directory in the container
 WORKDIR /app
