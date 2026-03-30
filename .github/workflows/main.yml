@@ -4,7 +4,7 @@ on:
   push:
     branches: [ main ]
     tags:
-      - 'v*'
+      - 'v*' # This tells GitHub: "Run the pipeline whenever a tag starting with 'v' is pushed"
   pull_request:
     branches: [ "main" ]
 
