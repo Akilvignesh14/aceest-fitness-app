@@ -2,7 +2,9 @@ name: ACEest Fitness CI Pipeline
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ main ]
+    tags:
+      - 'v*'
   pull_request:
     branches: [ "main" ]
 
